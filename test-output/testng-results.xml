@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-07T04:05:49Z" name="Suite" finished-at="2021-11-07T04:06:43Z" duration-ms="53991">
+    <groups>
+    </groups>
+    <test started-at="2021-11-07T04:05:49Z" name="Test Case 1" finished-at="2021-11-07T04:06:02Z" duration-ms="12817">
+      <class name="testcases.TestCase1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase1@7cbd9d24]" started-at="2021-11-07T04:05:49Z" name="setUp" finished-at="2021-11-07T04:05:52Z" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="firstTest()[pri:0, instance:testcases.TestCase1@7cbd9d24]" started-at="2021-11-07T04:05:52Z" name="firstTest" finished-at="2021-11-07T04:06:01Z" duration-ms="8768" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at testcases.TestCase1.firstTest(TestCase1.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TestCase1@7cbd9d24]" started-at="2021-11-07T04:06:01Z" name="getResult" finished-at="2021-11-07T04:06:01Z" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstTest status=FAILURE method=TestCase1.firstTest()[pri:0, instance:testcases.TestCase1@7cbd9d24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase1@7cbd9d24]" started-at="2021-11-07T04:06:01Z" name="tearDown" finished-at="2021-11-07T04:06:02Z" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase1 -->
+    </test> <!-- Test Case 1 -->
+    <test started-at="2021-11-07T04:06:02Z" name="Test Case 2" finished-at="2021-11-07T04:06:23Z" duration-ms="20417">
+      <class name="testcases.TestCase2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase2@60b4beb4]" started-at="2021-11-07T04:06:02Z" name="setUp" finished-at="2021-11-07T04:06:05Z" duration-ms="2554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="secondTest()[pri:0, instance:testcases.TestCase2@60b4beb4]" started-at="2021-11-07T04:06:05Z" name="secondTest" finished-at="2021-11-07T04:06:22Z" duration-ms="17228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TestCase2@60b4beb4]" started-at="2021-11-07T04:06:22Z" name="getResult" finished-at="2021-11-07T04:06:22Z" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondTest status=SUCCESS method=TestCase2.secondTest()[pri:0, instance:testcases.TestCase2@60b4beb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase2@60b4beb4]" started-at="2021-11-07T04:06:22Z" name="tearDown" finished-at="2021-11-07T04:06:23Z" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase2 -->
+    </test> <!-- Test Case 2 -->
+    <test started-at="2021-11-07T04:06:23Z" name="Test Case 3" finished-at="2021-11-07T04:06:43Z" duration-ms="20721">
+      <class name="testcases.TestCase3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase3@6d07a63d]" started-at="2021-11-07T04:06:23Z" name="setUp" finished-at="2021-11-07T04:06:25Z" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="thirdTest()[pri:0, instance:testcases.TestCase3@6d07a63d]" started-at="2021-11-07T04:06:25Z" name="thirdTest" finished-at="2021-11-07T04:06:43Z" duration-ms="17783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TestCase3@6d07a63d]" started-at="2021-11-07T04:06:43Z" name="getResult" finished-at="2021-11-07T04:06:43Z" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdTest status=SUCCESS method=TestCase3.thirdTest()[pri:0, instance:testcases.TestCase3@6d07a63d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase3@6d07a63d]" started-at="2021-11-07T04:06:43Z" name="tearDown" finished-at="2021-11-07T04:06:43Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase3 -->
+    </test> <!-- Test Case 3 -->
+  </suite> <!-- Suite -->
+</testng-results>
